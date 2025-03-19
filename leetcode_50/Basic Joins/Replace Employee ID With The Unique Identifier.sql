@@ -29,5 +29,5 @@ The result format is in the following example.
 */
 ABDULRAHMAN KASHO SARMINI | 240757904
 
-select unique_id, name from Employees e
-LEFT JOIN EmployeeUNI o ON e.id = o.id
+select unique_id, name from Employees em
+LEFT JOIN EmployeeUNI ou ON em.id = ou.id
